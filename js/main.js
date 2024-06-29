@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const str = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789♣♦♥♠■●▲◆";
+  const str = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789♣♦♥♠■●▲";
   const options = str.split("");
   const dropdowns = document.querySelectorAll(".form-select");
 
@@ -30,6 +30,17 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdown15: "G",
     dropdown16: "P",
   };
+
+  ``` 
+  if you're seeing this source code, boo to you. cheater.
+
+  but also, its my fault i got lazy and didnt bother to 
+  code this website properly so????? kudos to you??
+
+  quote 'IUSEDDEVELOPERTOOLS' to @rei_charl for extra 300 points for your OG.
+
+  and maybe a free milo. :]
+  ```;
 
   const form = document.getElementById("dropdownForm");
   form.addEventListener("submit", (event) => {
