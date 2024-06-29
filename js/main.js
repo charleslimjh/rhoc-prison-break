@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdown16: "P",
   };
 
-  ``` 
+  /*
   if you're seeing this source code, boo to you. cheater.
 
   but also, its my fault i got lazy and didnt bother to 
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   quote 'IUSEDDEVELOPERTOOLS' to @rei_charl for extra 300 points for your OG.
 
   and maybe a free milo. :]
-  ```;
+  */
 
   const form = document.getElementById("dropdownForm");
   form.addEventListener("submit", (event) => {
