@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const str = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789♣♦♥♠■●▲";
-  const options = str.split("");
+  var options = str.split("");
   const dropdowns = document.querySelectorAll(".form-select");
+  options.push("Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink");
 
   dropdowns.forEach((dropdown) => {
     options.forEach((option) => {
@@ -25,10 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdown10: "♥",
     dropdown11: "●",
     dropdown12: "■",
-    dropdown13: "R",
-    dropdown14: "B",
-    dropdown15: "G",
-    dropdown16: "P",
+    dropdown13: "Red",
+    dropdown14: "Blue",
+    dropdown15: "Green",
+    dropdown16: "Purple",
   };
 
   /*
@@ -56,7 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const resultMessage = `Correct: ${matchCount} out of 16.`;
     if (matchCount === 16) {
-      alert(`${resultMessage}\nThe code is 90876`);
+      alert(
+        `${resultMessage}\nQuote "Vivaldi Violin Concerto in E major, RV 269 Movement 2 Bar 32" to the game master to get out of the prison!`
+      );
     } else {
       alert(resultMessage);
     }
